@@ -1,38 +1,32 @@
-Este repositório foi criado como exemplo para um workshop de kit, onde será desenvolvida uma história colaborativa. O objetivo deste projeto é possibilitar que diferentes participantes contribuam de forma conjunta para a criação de uma narrativa.
+This repository was created as an example for a kit workshop, where a collaborative story will be developed. The goal of this project is to enable different participants to contribute jointly to the creation of a narrative.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+How to contribute
+To participate in the collaborative story, follow the steps below:
 
-## Como contribuir
-Para participar da história colaborativa, siga as etapas a seguir:
+Fork this repository to your own profile.
 
-- Faça um fork deste repositório para o seu próprio perfil.
+Clone the repository from your profile to your local environment:
 
- - Clone o repositório do seu perfil para o seu ambiente local:
+git clone https://github.com/your-username/collaborative-story.git
 
-   git clone https://github.com/seu-usuario/historia-colaborativa.git
+Create a new branch to start your contribution:
 
-- Crie um novo branch para iniciar sua contribuição:
+git checkout -b my-contribution
 
-   git checkout -b minha-contribuicao
+In the story.txt file, write your part of the story without altering the contributions of the other participants. Be creative and try to maintain the cohesion and continuity of the narrative.
 
-- Na pasta story, crie um novo arquivo com o nome da sua contribuição, seguindo o padrão:
+Add the created file to version control:
 
-   sua-contribuicao.md
+git add story.txt
 
-- Escreva sua parte da história no arquivo criado, levando em consideração as contribuições anteriores. Seja criativo e tente manter a coesão e a continuidade da narrativa.
+Commit to record your contribution:
 
-- Adicione o arquivo criado para o controle de versão:
+git commit -m "Add my contribution to the collaborative story"
 
-   git add story/sua-contribuicao.md
-  
-- Faça um commit para registrar sua contribuição:
+Push your changes to your repository:
 
-   git commit -m "Adicionar minha contribuição para a história colaborativa"
-  
-- Envie suas alterações para o seu repositório:
+git push origin my-contribution
 
-   git push origin minha-contribuicao
-  
-- Abra um pull request para o repositório principal, detalhando sua contribuição.
+Open a pull request to the main repository, detailing your contribution.
 
-Aguarde a revisão e a aprovação de sua contribuição. Estaremos revisando regularmente os pull requests e deixando comentários para feedback.
+Wait for your contribution to be reviewed and approved. We will be regularly reviewing pull requests and providing feedback.
